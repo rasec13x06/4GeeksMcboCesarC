@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+
+		<link rel="shortcut icon" href="Imagenes/icono.ico">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 		<title id="titulo">Busca Minas</title>
+ 		</head>
+	<body>
+		<div container>
+			<header>
+				<div class="row">
+
+					<div class="col-md-12">
+					<h1 style="text-align: center;color: white">Evita la BOMBA</h1>
+					</div>
+
+				</div>
+			</header>
+			<content>
+
+				<div class="row">
+					<div class="col-md-12">
+					<br>
+					<br>
+					</div>
+				</div>
+				<div class="row">
+			
+					<div class="col-md-4" id="colI">
+					<br>
+					<p id="parrafo" onclick="cambioparrafo()">Trata de no tocar la Bomba</p>
+					<br>
+					<br>
+					</div>
+					<div class="col-md-1" id="cuadro1">
+						<div id=cuadroa1 onclick="cuadrob1()">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+						</div>
+					</div>
+					<div class="col-md-1" id="cuadro2">
+						<div id=cuadroa2 onclick="cuadrob2()">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+						</div>
+					</div>
+					<div class="col-md-1" id="cuadro3">
+						<div id=cuadroa3 onclick="cuadrob3()">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+						</div>
+					</div>
+					<div class="col-md-1" id="cuadro4">
+						<div id=cuadroa4 onclick="cuadrob4()">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+						</div>
+					</div>
+					<div class="col-md-4" id="colD">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					</div>
+				</div>
+
+				<div class="row">
+			
+					<div class="col-md-4" id="colI">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					</div>
+					<div class="col-md-1" id="cuadro5">
+						<div id=cuadroa5 onclick="cuadrob5()">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+						</div>
+					</div>
+					<div class="col-md-1" id="cuadro6">
+						<div id=cuadroa6 onclick="cuadrob6()">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+						</div>
+					</div>
+					<div class="col-md-1" id="cuadro7">
+						<div id=cuadroa7 onclick="cuadrob7()">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+						</div>
+					</div>
+					<div class="col-md-1" id="cuadro8">
+						<div onclick="cuadrob8()" id=cuadroa8>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+						</div>
+					</div>
+					<div class="col-md-4" id="colD">
+					<br>
+					<br>
+					<br>
+					<br>
+					</div>
+				</div>
+
+				<div class="row">
+			
+					<div class="col-md-4" id="colI">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					</div>
+					<div class="col-md-1" id="cuadro9">
+						<div onclick="cuadrob9()" id=cuadroa9>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+						</div>
+					</div>
+					<div class="col-md-1" id="cuadro10">
+						<div onclick="tesoro()" id=cuadroa10 data-toggle="modal" data-target="#modalboom">
+
+						<div id="modalboom" class="modal fade" role="dialog">
+							<div class="modal-content" id="mcontent">
+								<div class="modal-header" style="background-color: black">
+								<div class="row" id="rowmodal" style="background-color: red">
+    								<div class="alert alert-caution" align="center">
+  										<strong>Booommmm!!!!</strong>  GAME OVER	</div>
+  									<div class="col-md-2">
+  									</div>
+  									<div class="col-md-8">
+									<h2>Has Encontrado la bomba y Exploto!!</h2>
+									<a href="index.html"><button type="button" id="botonindex" class="btn btn-lg" style="background-color: white"><b style="color: red">Empezar de Nuevo</b></button></a>
+									<br>
+									</div>
+									<div class="col-md-2">
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-1" id="cuadro11">
+						<div onclick="cuadrob11()" id=cuadroa11>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+						</div>
+					</div>
+					<div class="col-md-1" id="cuadro12">
+						<div onclick="cuadrob12()" id=cuadroa12>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+						</div>
+					</div>
+					<div class="col-md-4" id="colD">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					</div>
+				</div>
+				<div class="row" id="row3">
+					<div class="col-md-12">
+					<br>
+					<br>
+					</div>
+				</div>
+			</content>
+			<footer>
+				<div class="row">
+					<div class="col-md-12">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					</div>
+				</div>
+				<script>
+
+function tesoro()
+{
+
+var myprog = document.getElementById("cuadroa10");
+myprog.style="background-image:url(Imagenes/images.jpg)";
+}
+
+function cuadrob5()
+{
+
+var myprog = document.getElementById("cuadroa5");
+myprog.style="background-color:lightgreen";
+myprog=document.getElementById("cuadroa5"). innerHTML=("<br><h4>Bomba Cerca</h4>");
+}
+
+function cuadrob6()
+{
+
+var myprog = document.getElementById("cuadroa6");
+myprog.style="background-color:lightgreen";
+myprog=document.getElementById("cuadroa6"). innerHTML=("<br><h4>Bomba Cerca</h4>");
+}
+
+function cuadrob7()
+{
+
+var myprog = document.getElementById("cuadroa7");
+myprog.style="background-color:lightgreen";
+myprog=document.getElementById("cuadroa7"). innerHTML=("<br><h4>Bomba Cerca</h4>");
+}
+
+function cuadrob1()
+{
+
+var myprog = document.getElementById("cuadroa1");
+myprog.style="background-color:lightgreen";
+myprog=document.getElementById("cuadroa1"). innerHTML=("<br><h5>Despejado</h5>");
+}
+
+function cuadrob2()
+{
+
+var myprog = document.getElementById("cuadroa2");
+myprog.style="background-color:lightgreen";
+myprog=document.getElementById("cuadroa2"). innerHTML=("<br><h5>Despejado</h5>");
+}
+
+function cuadrob3()
+{
+
+var myprog = document.getElementById("cuadroa3");
+myprog.style="background-color:lightgreen";
+myprog=document.getElementById("cuadroa3"). innerHTML=("<br><h5>Despejado</h5>");
+}
+
+
+function cuadrob4()
+{
+
+var myprog = document.getElementById("cuadroa4");
+myprog.style="background-color:lightgreen";
+myprog=document.getElementById("cuadroa4"). innerHTML=("<br><h5>Despejado</h5>");
+}
+
+function cuadrob12()
+{
+
+var myprog = document.getElementById("cuadroa12");
+myprog.style="background-color:lightgreen";
+myprog=document.getElementById("cuadroa12"). innerHTML=("<br><h5>Despejado</h5>");
+}
+
+function cuadrob8()
+{
+
+var myprog = document.getElementById("cuadroa8");
+myprog.style="background-color:lightgreen";
+myprog=document.getElementById("cuadroa8"). innerHTML=("<br><h5>Despejado</h5>");
+}
+
+function cuadrob9()
+{
+
+var myprog = document.getElementById("cuadroa9");
+myprog.style="background-color:lightgreen";
+myprog=document.getElementById("cuadroa9"). innerHTML=("<br><h4>Bomba Cerca</h4>");
+}
+
+function cuadrob11()
+{
+
+var myprog = document.getElementById("cuadroa11");
+myprog.style="background-color:lightgreen";
+myprog=document.getElementById("cuadroa11"). innerHTML=("<br><h4>Bomba Cerca</h4>");
+}
+
+</script>
+
+
+			</footer>
+		</div>
+	</body>
+</html>
